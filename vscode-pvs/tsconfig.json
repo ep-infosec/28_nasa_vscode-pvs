@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es6",
+		"outDir": "out",
+		"rootDir": "src",
+		"lib": [ "es6" ],
+		"sourceMap": true,
+		"types": [
+			"handlebars", "mocha"
+		]
+	},
+	"include": [
+		"src"
+	],
+	"exclude": [
+		"node_modules"
+	],
+	"references": [
+		{ "path": "./client" },
+		{ "path": "./server" }
+	]
+}

@@ -1,0 +1,239 @@
+{
+	"fonts": [{
+		"id": "font-awesome",
+		"src": [{
+			"path": "../client/node_modules/font-awesome/fonts/fontawesome-webfont.woff",
+			"format": "woff"
+		}],
+		"weight": "bold",
+		"style": "normal",
+		"size": "100%"
+	}],
+	"iconDefinitions": {
+		"pvs-file-icon": {
+			"iconPath": "./pvs-file-icon.png",
+			"description": "pvs theory file"
+		},
+		"tccs-file-icon": {
+			"iconPath": "./tccs-file-icon.png",
+			"description": "tccs file"
+		},
+		"summary-file-icon": {
+			"iconPath": "./summary-file-icon.png",
+			"description": "summary file"
+		},
+		"binary-file": {
+			"iconPath": "./internal-pvs-file-icon.png",
+			"description": "pvs proof file"
+		},
+		"fa-folder": {
+			"fontCharacter": "\\f114",
+			"fontId": "font-awesome"
+		},
+		"fa-folder-open-o": {
+			"fontCharacter": "\\f115",
+			"fontId": "font-awesome"
+		},
+		"fa-github": {
+			"fontCharacter": "\\f09b",
+			"fontId": "font-awesome"
+		},
+		"fa-file-o": {
+			"fontCharacter": "\\f016",
+			"fontId": "font-awesome"
+		},
+		"fa-file-pdf-o": {
+			"fontCharacter": "\\f1c1",
+			"fontId": "font-awesome"
+		},
+		"fa-file-word-o": {
+			"fontCharacter": "\\f1c2",
+			"fontId": "font-awesome"
+		},
+		"fa-file-powerpoint-o": {
+			"fontCharacter": "\\f1c4",
+			"fontId": "font-awesome"
+		},
+		"fa-file-text-o": {
+			"fontCharacter": "\\f0f6",
+			"fontId": "font-awesome"
+		},
+		"fa-file-image": {
+			"fontCharacter": "\\f1c5",
+			"fontId": "font-awesome"
+		},
+		"fa-file-archive-o": {
+			"fontCharacter": "\\f1c6",
+			"fontId": "font-awesome"
+		},
+		"fa-key": {
+			"fontCharacter": "\\f084",
+			"fontId": "font-awesome"
+		},
+		"fa-clock-o": {
+			"fontCharacter": "\\f017",
+			"fontId": "font-awesome"
+		},
+		"fa-info-circle": {
+			"fontCharacter": "\\f05a",
+			"fontId": "font-awesome"
+		},
+		"fa-html5": {
+			"fontCharacter": "\\f13b",
+			"fontId": "font-awesome"
+		},
+		"json-file": {
+			"fontCharacter": "{}",
+			"fontId": "monaco"
+		},
+		"makefile-icon": {
+			"fontCharacter": "M",
+			"fontColor": "coral",
+			"fontId": "monaco"
+		},
+		"texfile-icon": {
+			"fontCharacter": "TeX",
+			"fontSize": "8px",
+			"fontId": "monaco"
+		},
+		"bibfile-icon": {
+			"fontCharacter": "BiB",
+			"fontSize": "8px",
+			"fontId": "monaco"
+		},
+		"tsfile-icon": {
+			"fontCharacter": "TS",
+			"fontSize": "75%",
+			"fontColor": "steelblue",
+			"fontId": "monaco"
+		},
+		"fa-terminal": {
+			"fontCharacter": "\\f155",
+			"fontColor": "yellowgreen",
+			"fontId": "font-awesome"
+		},
+		"fa-lock": {
+			"fontCharacter": "\\f023",
+			"fontId": "font-awesome"
+		},
+		"ddl-file-icon": {
+			"fontCharacter": "ddL",
+			"fontSize": "75%",
+			"description": "PVS Differential Dynamic Logic (DDL) file",
+			"fontId": "monaco",
+			"fontColor": "lime"
+		},
+		"ddl-file-icon-light": {
+			"fontCharacter": "ddL",
+			"fontSize": "75%",
+			"description": "PVS Differential Dynamic Logic (DDL) file",
+			"fontId": "monaco",
+			"fontColor": "green"
+		},
+		"lisp-file-icon": {
+			"fontCharacter": "LISP",
+			"fontSize": "55%",
+			"description": "Lisp file",
+			"fontId": "monaco"
+		}
+	},
+	"folder": "fa-folder",
+	"folderExpanded": "fa-folder-open-o",
+	"folderNames": {
+		"pvsbin": "binary-file",
+		"pvsioweb": "binary-file"
+	},
+	"fileNames": {
+		".gitignore": "fa-github",
+		"license": "fa-key",
+		"license.md": "fa-key",
+		"changelog": "fa-clock-o",
+		"changelog.md": "fa-clock-o",
+		"readme": "fa-info-circle",
+		"readme.md": "fa-info-circle",
+		"makefile": "makefile-icon",
+		"all-theories": "fa-file-text-o",
+		"all-theories.grandtotals": "fa-file-text-o",
+		"package-lock.json": "fa-lock",
+		"pvs-strategies": "binary-file",
+		"cleanbin-all": "fa-terminal",
+		"find-all": "fa-terminal",
+		"dependency-all": "fa-terminal",
+		"dependencygraph": "fa-terminal",
+		"install-scripts": "fa-terminal",
+		"nasalib-version": "fa-terminal",
+		"prove-all": "fa-terminal",
+		"typecheck-all": "fa-terminal",
+		"nasalib.all": "fa-file-text-o",
+		"nasalib.grandtotals": "fa-file-text-o"
+	},
+	"fileExtensions": {
+		"pvs": "pvs-file-icon",
+		"tccs": "tccs-file-icon",
+		"summary": "summary-file-icon",
+		"prf": "binary-file",
+		"n64fasl": "binary-file",
+		"dmp": "fa-file-archive-o",
+
+		"dylib": "binary-file",
+		"a": "binary-file",
+		"bin": "binary-file",
+		"o": "binary-file",
+
+		"pdf": "fa-file-pdf-o",
+		"gif": "fa-file-image",
+		"jpg": "fa-file-image",
+		"jpeg": "fa-file-image",
+		"png": "fa-file-image",
+		"svg": "fa-file-image",
+		"zip": "fa-file-archive-o",
+		"tgz": "fa-file-archive-o",
+		"gz": "fa-file-archive-o",
+		"json": "json-file",
+		"ts": "tsfile-icon",
+		"map": "fa-file-o",
+		"doc": "fa-file-word-o",
+		"docx": "fa-file-word-o",
+		"ppt": "fa-file-powerpoint-o",
+		"pptx": "fa-file-powerpoint-o",
+		"txt": "fa-file-text-o",
+		"cpp": "fa-file-o",
+		"hpp": "fa-file-o",
+		"c": "fa-file-o",
+		"h": "fa-file-o",
+		"java": "fa-file-o",
+		"py": "fa-file-o",
+		"pl": "fa-file-o",
+		"daa": "fa-file-text-o",
+		"conf": "fa-file-text-o",
+		"html": "fa-html5",
+		"htm": "fa-html5",
+		"css": "fa-html5",
+		"js": "fa-html5",
+		"make": "makefile-icon",
+		"cmake": "makefile-icon",
+		"tex": "texfile-icon",
+		"bib": "bibfile-icon",
+		"bbl": "fa-file-o",
+		"blg": "fa-file-o",
+		"bst": "fa-file-o",
+		"aux": "fa-file-o",
+		"cls": "fa-file-o",
+		"sty": "fa-file-o",
+		"fls": "fa-file-o",
+		"fdb_latexmk": "fa-file-o",
+		"out": "fa-file-o",
+		"sh": "fa-terminal",
+		"md": "fa-info-circle",
+		"lisp": "lisp-file-icon",
+		"err": "fa-file-text-o",
+		"msg": "fa-file-text-o",
+		"new": "fa-file-text-o",
+		"old": "fa-file-text-o",
+
+		"ddl": "ddl-file-icon"
+	},
+	"languageIds": {
+		"pvs": "binary-file"
+	}
+}
